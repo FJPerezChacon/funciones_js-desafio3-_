@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 colores</title>
+    <style>
+
+        section{
+            display: flex;
+            gap: 50px;
+            margin: 100px;
+        }
+
+        div{
+            width: 200px;
+            height: 200px;
+            
+        }
+    </style>
+</head>
+<body>
+    <<section>
+        <div id="cont1" style="background-color: blue;" onclick="cambiarColor('cont1')"></div>
+        <div id="cont2" style="background-color: red;" onclick="cambiarColor('cont2')"></div>
+        <div id="cont3" style="background-color: green;" onclick="cambiarColor('cont3')"></div>
+        <div id="cont4" style="background-color: yellow;" onclick="cambiarColor('cont4')"></div>
+    </section>
+    <section>
+        <div id="cont5" style="background-color: white; border: solid 2px black"></div>
+    </section>
+    
+    <script src="./assets/js/4_colores.js"></script>
+</body>
+</html>
